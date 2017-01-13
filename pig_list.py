@@ -26,4 +26,15 @@ def run_tests():
 
 def rotate(nums):
 
+    
+    if 2 > len(nums) >= 0:
+        pass
+    
+        
+
+    else:
+        nums.insert(len(nums), nums[0])
+        nums.pop(0)
+        
+    print(nums)
 
